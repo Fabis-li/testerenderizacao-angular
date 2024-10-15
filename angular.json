@@ -100,6 +100,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://fabis-li.github.io/testerenderizacao-angular/",
+            "repo": "https://github.com/Fabis-li/testerenderizacao-angular.git"
+          }
         }
       }
     }
